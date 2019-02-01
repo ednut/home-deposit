@@ -1,0 +1,844 @@
+.ul-reset {
+  margin: 0;
+  padding: 0;
+}
+.shadow {
+  box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.4rem 2rem 0 rgba(0, 0, 0, 0.04);
+}
+.light-shadow {
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.01), 0 0.2rem 0.3rem rgba(0, 0, 0, 0.04);
+}
+.button .button,
+.button a.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 4rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  transition: all .2s;
+  animation: moveInBottom 1s linear;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: #587abc;
+  color: #fff;
+  position: relative;
+}
+.button .button:hover,
+.button a.button:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.button .button:active,
+.button a.button:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.button .button.full,
+.button a.button.full {
+  width: 100%;
+}
+.button .button.with-right-icon .btn-icon,
+.button a.button.with-right-icon .btn-icon {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.button .button.with-right-icon .btn-icon i,
+.button a.button.with-right-icon .btn-icon i {
+  font-size: 1.4rem;
+}
+.backgroundImage {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+.mt-16 {
+  margin-top: 16rem!important;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+header {
+  height: 7rem;
+  background-color: #ffffff;
+  position: relative;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+}
+header img.logo {
+  width: 7rem;
+}
+header .user-links {
+  margin: 0;
+  padding: 0;
+}
+header .user-links li {
+  position: relative;
+  display: inline-block;
+  margin-right: 1rem;
+  height: 7rem;
+  line-height: 7rem;
+  vertical-align: top;
+  text-transform: uppercase;
+  text-align: left;
+}
+header .user-links li a {
+  text-transform: capitalize;
+  padding-right: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+header .user-links li svg {
+  fill: #fff!important;
+}
+header .user-links li.landlord svg {
+  fill: #fff;
+  width: 2.2rem;
+  padding-right: 0.2rem;
+  margin-top: -0.23rem;
+}
+header .user-links li.tenant svg {
+  fill: #333;
+  width: 2.1rem;
+  padding-right: 0.2rem;
+}
+header .user-links li.bussiness svg {
+  fill: #333;
+  width: 3.4rem;
+  padding-right: 0.2rem;
+}
+header .user-links li.signup svg {
+  fill: #333;
+  width: 2rem;
+  padding-right: 0.3rem;
+}
+header .user-links li.login svg {
+  fill: #333;
+  width: 2rem;
+  padding-right: 0.3rem;
+}
+.button,
+a.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 4rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  transition: all .2s;
+  animation: moveInBottom 1s linear;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: #587abc;
+  color: #fff;
+  position: relative;
+}
+.button:hover,
+a.button:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.button:active,
+a.button:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.button.full,
+a.button.full {
+  width: 100%;
+}
+.button.with-right-icon .btn-icon,
+a.button.with-right-icon .btn-icon {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.button.with-right-icon .btn-icon i,
+a.button.with-right-icon .btn-icon i {
+  font-size: 1.4rem;
+}
+section.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65rem;
+}
+section.banner .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.01);
+  padding-top: 15rem;
+  text-align: center;
+}
+section.banner .overlay .title {
+  color: #333;
+  font-size: 4rem;
+  font-weight: 600;
+}
+section.banner .overlay .caption {
+  color: #333;
+  font-size: 2rem;
+}
+section.banner .overlay .option {
+  margin-top: 4rem;
+  min-height: 5rem;
+  box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.4rem 2rem 0 rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+section.banner .overlay .option a.choice {
+  display: block;
+  width: 33.33%;
+  padding: 1rem;
+  text-decoration: none;
+  border-right: 1px solid #dedbdd;
+  border-radius: 0.6rem;
+}
+section.banner .overlay .option a.choice:last-child {
+  border-right: none;
+}
+section.banner .overlay .option a.choice img {
+  width: 8rem;
+}
+section.banner .overlay .option a.choice .text {
+  display: block;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  color: #333;
+}
+section.banner .overlay .option a.choice:hover {
+  background-color: #f5f5f6;
+}
+section.first-caption {
+  margin-top: 6rem;
+  position: relative;
+}
+section.first-caption .title {
+  color: #333647;
+  font-weight: 600;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  line-height: 4.5rem;
+}
+section.first-caption .caption {
+  color: #333647;
+  font-weight: 200;
+  font-size: 2.6rem;
+}
+section.media-text {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+section.media-text .img img {
+  width: 35rem;
+}
+section.media-text .title {
+  color: #333647;
+  font-weight: 600;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  line-height: 4.5rem;
+  margin-top: 6rem;
+}
+section.media-text .caption {
+  color: #333647;
+  font-weight: 200;
+  font-size: 2.6rem;
+}
+section.color-card-info {
+  margin-top: 5rem;
+  position: relative;
+  background-color: #f5f5f6;
+  min-height: 20rem;
+  padding: 3rem 0;
+}
+section.color-card-info .title {
+  color: #333647;
+  font-weight: 600;
+  font-size: 4rem;
+  padding-bottom: 5rem;
+  line-height: 4.5rem;
+  margin-top: 6rem;
+  text-align: left;
+}
+section.color-card-info .card {
+  min-height: 34rem;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.4rem 2rem 0 rgba(0, 0, 0, 0.04);
+}
+section.color-card-info .card.landlords {
+  background-color: #ba0066;
+}
+section.color-card-info .card.landlords svg {
+  fill: #ffffff;
+  width: auto;
+  margin: 3rem auto;
+  height: 9rem;
+}
+section.color-card-info .card.businesses {
+  background-color: #587abc;
+}
+section.color-card-info .card.businesses svg {
+  fill: #ffffff;
+  width: auto;
+  margin: 3rem auto;
+  height: 12rem;
+}
+section.color-card-info .card.tenants {
+  background-color: #a8c550;
+}
+section.color-card-info .card.tenants svg {
+  fill: #ffffff;
+  width: auto;
+  margin: 3rem auto;
+  height: 9rem;
+}
+section.color-card-info .card .title {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 0;
+  text-align: center;
+}
+section.color-card-info .card .caption {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.form-wrap {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.form-wrap.inline {
+  display: inline-block;
+  margin-right: 3rem;
+  width: auto;
+  vertical-align: top;
+}
+.form-wrap label {
+  font-weight: 600;
+  display: block;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0;
+}
+.form-wrap input {
+  height: 4rem;
+  border: 0.1rem solid #dedbdd;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: 0.3rem;
+  outline: none;
+}
+.form-wrap span.error {
+  color: red;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+.form-wrap select {
+  height: 4rem;
+  border: 0.1rem solid #dedbdd;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: 0.3rem;
+  outline: none;
+  background-color: #fff;
+}
+.form-wrap textarea {
+  height: 12rem;
+  min-height: 4rem;
+  max-height: 20rem;
+  border: 0.1rem solid #dedbdd;
+  width: 100%;
+  min-width: 100%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  outline: none;
+}
+.form-wrap a.forgot-passoword {
+  display: inline-block;
+  position: absolute;
+  color: #97c900;
+  font-weight: 600;
+  right: 0;
+  top: 0;
+}
+.form-wrap.with-icon input {
+  padding: 0 1rem 0 5rem;
+}
+.form-wrap.with-icon .form-icon {
+  display: inline-block;
+  position: absolute;
+  left: 1.3rem;
+  bottom: 0.1rem;
+  color: #ea7501;
+}
+.form-wrap.input-button .form-field {
+  display: inline-block;
+}
+.form-wrap.input-button .form-field label {
+  cursor: pointer;
+  display: inline-block;
+  width: 20rem;
+  height: 10rem;
+  line-height: 10rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.5);
+  margin-right: 1em;
+  position: relative;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 0.7rem;
+  font-size: 1.6rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.form-wrap.input-button .form-field label:hover {
+  border: 0.2rem solid #97c900;
+  background-color: #97c900;
+  color: #ffffff;
+}
+.form-wrap.input-button .form-field input {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #dedbdd;
+  outline: 0;
+  color: #000000;
+  transition: border-color 0.2s ease-in-out;
+  font-size: 1.7rem;
+}
+.form-wrap.input-button .form-field input[type=radio] {
+  display: none;
+}
+.form-wrap.input-button .form-field input[type=radio]:checked + label {
+  border: 0.2rem solid #97c900;
+  background-color: #97c900;
+  color: #ffffff;
+}
+.form-wrap.input input[type=radio],
+.form-wrap.input input[type=checkbox] {
+  display: none;
+}
+.form-wrap.input label {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  cursor: pointer;
+}
+.form-wrap.input label span.icon {
+  display: none;
+}
+.form-wrap.input label span.icon i {
+  position: absolute;
+  left: 0.54rem;
+  top: 0.6rem;
+  color: #97c900;
+}
+.form-wrap.input label span.text {
+  display: inline-block;
+  padding-left: 3.5rem;
+  vertical-align: text-top;
+}
+.form-wrap.input label::before {
+  content: "";
+  width: 2.5rem;
+  height: 2.5rem;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.form-wrap.input.radio input[type=radio]:checked + label {
+  font-weight: 600;
+}
+.form-wrap.input.radio input[type=radio]:checked + label span.icon {
+  display: inline-block;
+}
+.form-wrap.input.radio input[type=radio]:checked + label span.text {
+  display: inline-block;
+  padding-left: 3.2rem;
+  vertical-align: text-top;
+}
+.form-wrap.input.radio label::before {
+  content: "";
+  border: o 0.2rem solid #666666;
+  border-radius: 50%;
+}
+.form-wrap.input.checkbox input[type=checkbox]:checked + label {
+  font-weight: 600;
+}
+.form-wrap.input.checkbox input[type=checkbox]:checked + label span.icon {
+  display: inline-block;
+}
+.form-wrap.input.checkbox input[type=checkbox]:checked + label span.text {
+  display: inline-block;
+  padding-left: 3.2rem;
+  vertical-align: text-top;
+}
+.form-wrap.input.checkbox label::before {
+  content: "";
+  border: 0.1rem solid #dedbdd;
+  border-radius: 0.4rem;
+}
+.form-wrap.input.bordered {
+  border: 0.1rem solid #dedbdd;
+  padding: 0 1.3rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  height: 5rem;
+  line-height: 4.5rem;
+}
+.form-wrap.input.bordered label {
+  width: 100%;
+}
+.form-wrap.input.bordered label::before {
+  top: 1.2rem;
+}
+.form-wrap.input.bordered label span.icon i {
+  top: 2.05rem;
+  left: 0.55rem;
+}
+.form-wrap.input.bordered label span.text {
+  float: right;
+  width: 95%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 0.1rem;
+}
+.form-wrap.input.bordered.with-edit label {
+  width: 90%;
+}
+.form-wrap.input.bordered.with-edit span.edit {
+  float: right;
+  width: 10%;
+  display: inline-block;
+}
+.form-wrap.input.bordered.with-edit span.edit i {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #97c900;
+}
+.form-wrap.with-address {
+  position: relative;
+  z-index: 10000;
+  margin-bottom: 2rem;
+}
+.form-wrap.with-address .loaded-addresses {
+  position: absolute;
+  width: 100%;
+  top: 96%;
+  border: 0.1rem solid rgba(204, 204, 204, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0.8rem 2rem 0;
+  z-index: 10;
+  display: none;
+  max-height: 13em;
+  overflow: auto;
+}
+.form-wrap.with-address .loaded-addresses button.save {
+  border: none;
+  background-color: #97c900;
+  color: #fff;
+  width: 100%;
+  padding: 0.1rem 1rem!important;
+  margin: 0!important;
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0.5rem 2rem 0;
+  display: none;
+}
+.form-wrap.with-address .loaded-addresses span.addresses {
+  display: inline-block;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  border-bottom: 0.1rem solid rgba(204, 204, 204, 0.3);
+  background-color: #fff;
+  cursor: pointer;
+}
+.form-wrap.with-address .loaded-addresses span.addresses:hover {
+  background-color: #D7F1B8;
+}
+.form-wrap.with-address .loaded-addresses span.addresses:last-child {
+  border-bottom: none;
+}
+section.account {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+section.account .title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #ba0066;
+}
+section.account .caption {
+  font-size: 1.8rem;
+}
+section.account .form-section {
+  margin-top: 5rem;
+  box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.4rem 2rem 0 rgba(0, 0, 0, 0.04);
+  padding: 2rem 4rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  margin-bottom: 2rem;
+}
+section.account .form-section .title {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  color: #ba0066;
+}
+section.admin {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+section.admin nav {
+  position: relative;
+  height: 5rem;
+  line-height: 5rem;
+  margin-bottom: 3rem;
+}
+section.admin nav ul.admin-nav {
+  margin: 0;
+  padding: 0;
+}
+section.admin nav ul.admin-nav li {
+  display: inline-block;
+  padding: 0 2rem;
+  border-radius: 6px;
+  font-size: 15px;
+}
+section.admin nav ul.admin-nav li:hover {
+  background-color: #fff;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.01), 0 0.2rem 0.3rem rgba(0, 0, 0, 0.04);
+}
+section.admin nav ul.admin-nav li.active {
+  background-color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.01), 0 0.2rem 0.3rem rgba(0, 0, 0, 0.04);
+}
+section.admin nav ul.admin-nav li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+section.admin nav ul.admin-nav li a svg {
+  fill: #333;
+  width: 2.2rem;
+  padding-right: 0.2rem;
+}
+section.admin nav ul.admin-nav li a span.text {
+  display: inline-block;
+}
+section.admin .card {
+  background-color: #fff;
+  min-height: 7rem;
+  padding: 2rem;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.01), 0 0.2rem 0.3rem rgba(0, 0, 0, 0.04);
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+}
+section.admin .card.no-pad {
+  padding: 0;
+}
+section.admin .card .title {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+section.admin .card .button {
+  text-transform: inherit;
+}
+section.admin .card .figure {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 2.9rem;
+  color: #ba0066;
+}
+section.admin .card .caption {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #666;
+}
+section.admin .card .head {
+  border-bottom: 0.1rem solid #dedbdd;
+  padding: 1rem 2rem;
+}
+section.admin .card .head span.icon {
+  display: inline-block;
+  color: #ba0066;
+  padding-right: 2rem;
+}
+section.admin .card .head span.icon i {
+  font-size: 2rem;
+}
+section.admin .card .head span.text {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+section.admin .card .cont {
+  padding: 1rem 2rem;
+}
+section.admin .card .cont .figure-wrap span.figure {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 4.5rem;
+  color: #ba0066;
+}
+section.admin .card .cont .figure-wrap span.caption {
+  font-size: 15px;
+  color: #666;
+  padding-left: 1rem;
+  text-transform: inherit;
+  vertical-align: super;
+  display: inline-block;
+}
+section.admin .card .cont .notification {
+  min-height: 15rem;
+  padding: 2rem;
+  background-color: #f2f2f2;
+  color: #888;
+  border-radius: 0.4rem;
+}
+section.admin .card .view-all {
+  display: block;
+  padding: 1rem 2rem;
+  text-align: right;
+  color: #888;
+  border-top: 0.1rem solid #dedbdd;
+}
+footer {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+  margin-top: 7rem;
+}
+footer#footer {
+  background-color: #57585a;
+  min-height: 85rem;
+  color: #ffffff;
+  padding: 5rem 0;
+  margin-top: 0;
+}
+footer#footer .info .logo {
+  text-align: left;
+}
+footer#footer .info .logo a {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  display: block;
+  text-decoration: none;
+}
+footer#footer .info .logo a img {
+  width: 8rem;
+  height: auto;
+  margin-top: -1.5rem;
+  margin-left: -1rem;
+}
+footer#footer .info .footer-caption {
+  line-height: 2.5rem;
+  text-align: left;
+  font-weight: 500;
+}
+footer#footer .links ul {
+  margin: 0;
+  padding: 0;
+}
+footer#footer .links ul li {
+  display: block;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+footer#footer .links ul li.header {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+@media (min-width: 768px) {
+  footer#footer .links ul li.header {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+}
+footer#footer .links ul li a {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+footer#footer .social-media-wrap {
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+footer#footer .social-media-wrap .terms ul {
+  margin: 0;
+  padding: 0;
+}
+footer#footer .social-media-wrap .terms ul li {
+  display: inline-block;
+}
+footer#footer .social-media-wrap .terms ul li a {
+  color: #ffffff;
+  margin-left: 1rem;
+}
+@media (min-width: 768px) {
+  footer#footer .social-media-wrap {
+    border-top: 1px solid #8d9495;
+  }
+}
+@media (min-width: 768px) {
+  footer#footer {
+    min-height: 28rem;
+  }
+}

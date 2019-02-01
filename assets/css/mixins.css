@@ -1,0 +1,59 @@
+.ul-reset {
+  margin: 0;
+  padding: 0;
+}
+.shadow {
+  box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.4rem 2rem 0 rgba(0, 0, 0, 0.04);
+}
+.light-shadow {
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.01), 0 0.2rem 0.3rem rgba(0, 0, 0, 0.04);
+}
+.button .button,
+.button a.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 4rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  transition: all .2s;
+  animation: moveInBottom 1s linear;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: #587abc;
+  color: #fff;
+  position: relative;
+}
+.button .button:hover,
+.button a.button:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.button .button:active,
+.button a.button:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.button .button.full,
+.button a.button.full {
+  width: 100%;
+}
+.button .button.with-right-icon .btn-icon,
+.button a.button.with-right-icon .btn-icon {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.button .button.with-right-icon .btn-icon i,
+.button a.button.with-right-icon .btn-icon i {
+  font-size: 1.4rem;
+}
+.backgroundImage {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
