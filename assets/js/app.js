@@ -15,9 +15,19 @@
 	      templateUrl: "partials/home.html"
 	    })
 
-	    .state('about', {
-	      url: "/about",
-	      templateUrl: "partials/about.html"
+	    .state('landlord', {
+	      url: "/landlord",
+	      templateUrl: "partials/landlord.html"
 	    })
 
+			.state('account', {
+	      url: "/account",
+	      templateUrl: "partials/account.html"
+			})
+
+			.state('admin', {
+	      url: "/admin",
+	      templateUrl: "partials/admin.html"
+			})
+			
 	});
