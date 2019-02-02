@@ -115,7 +115,7 @@ header .user-links li a {
   font-weight: 600;
 }
 header .user-links li svg {
-  fill: #fff!important;
+  fill: #fff;
 }
 header .user-links li.landlord svg {
   fill: #fff;
