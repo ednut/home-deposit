@@ -89,7 +89,8 @@ header {
   z-index: 1;
 }
 header img.logo {
-  width: 7rem;
+  width: 10rem;
+  margin-left: 6rem;
 }
 header .user-links {
   margin: 0;
